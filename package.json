@@ -1,0 +1,26 @@
+{
+	"name": "@byme/migration",
+	"version": "1.0.0",
+	"description": "",
+	"main": "lib/index.js",
+	"scripts": {
+		"lint": "tslint --project tsconfig.json",
+		"build": "tsc"
+	},
+	"engines": {
+		"node": "12"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"csvtojson": "^2.0.10",
+		"firebase-admin": "^9.3.0"
+	},
+	"devDependencies": {
+		"@types/node": "^14.0.5",
+		"log4js": "^6.3.0",
+		"tslint": "^6.1.2",
+		"typescript": "^3.9.3"
+	}
+}
