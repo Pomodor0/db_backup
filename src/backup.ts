@@ -1,5 +1,5 @@
 import { firestore } from 'firebase-admin';
-import * as dia_db from'./DatasetJSON/diadataset.json';
+import * as dia_db from'./DatasetJSON/DiaDB.json';
 import {Products} from './types/products';
 const csv=require('csvtojson');
 
